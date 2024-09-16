@@ -12,11 +12,11 @@ As known, training data is crucial for deep-learning-based methods to succeed. A
 ![dataset-min](https://user-images.githubusercontent.com/56446649/158001100-1c404834-3a14-4999-9911-6e9ff4305ed6.png)
 
 # Cite our work:
-@article{peng2024blurriness,\\
-  title={Blurriness-Guided Underwater Salient Object Detection and Data Augmentation},
-  author={Peng, Yan-Tsung and Lin, Yu-Cheng and Peng, Wen-Yi and Liu, Chen-Yu},
-  journal={IEEE Journal of Oceanic Engineering},
-  year={2024},
-  publisher={IEEE}
+@article{peng2024blurriness,<br />
+  title={Blurriness-Guided Underwater Salient Object Detection and Data Augmentation},<br />
+  author={Peng, Yan-Tsung and Lin, Yu-Cheng and Peng, Wen-Yi and Liu, Chen-Yu},<br />
+  journal={IEEE Journal of Oceanic Engineering},<br />
+  year={2024},<br />
+  publisher={IEEE}<br />
 }
 
