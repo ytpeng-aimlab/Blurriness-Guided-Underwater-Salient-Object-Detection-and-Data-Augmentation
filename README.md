@@ -1,4 +1,4 @@
-# FocusAugment
+# Blurriness-Guided Underwater Salient Object Detection and Data Augmentation, IEEE Journal of Oceanic Engineering, 2024
 
 # U-SOD
 
@@ -6,7 +6,7 @@ The underwater salient object detection (U-SOD) dataset contains 1,111 underwate
 The dataset can be downloaded here: https://tinyurl.com/yk5fum9s.
 
 # Introduction
-As known, training data is crucial for deep-learning-based methods to succeed. Although many SOD datasets are available for terrestrial scenes, there is little data for underwater SOD, thus lacking well-acknowledged datasets for underwater SOD. As a result, we have collected 1,011 underwater images from the images or videos of Hawaii Undersea Research Laboratory, Bubble Vision, and National Geographic footage, labeling their saliency maps. The collected images have different contents, watercolors, visibility degrees, and scales of objects to cover a wide range of underwater scenes. We label these images using an annotation tool for image segmentation implemented by Amaury Br{\'e}h{\'e}ret. The figure below shows some examples for the dataset, where the first row demonstrates images with different object sizes, categories, and watercolors, and the second row shows the corresponding saliency maps we annotated.
+Salient object detection (SOD) has made significant progress with the help of deep networks. However, most works focus on terrestrial scenes, but underwater scenes for SOD are still little explored, which is essential for artificial intelligence-driven underwater scene analysis. In the article, we propose and discuss two practical approaches to boost the performance of underwater SOD based on an inherent property of underwater scenes—blurriness, since an object appears more blurred when it is farther away. First, we utilize a self-derived blurriness cue and fuse it with the input image to help boost SOD accuracy. Next, we propose a blurriness-assisted data augmentation method that works for any available SOD model, called FocusAugment, for underwater SOD. We adjust images to enlarge differences between more- and less-focused regions based on the blurriness maps to augment training data. The experimental results show that both approaches can significantly improve state-of-the-art SOD models' accuracy for underwater scenes.
 
 
 ![dataset-min](https://user-images.githubusercontent.com/56446649/158001100-1c404834-3a14-4999-9911-6e9ff4305ed6.png)
