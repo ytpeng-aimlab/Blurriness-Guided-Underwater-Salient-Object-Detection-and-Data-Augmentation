@@ -48,8 +48,8 @@ conda activate myenv
 ### 2. Install Dependencies
 
 ```bash
-conda-lock lock -f conda-lock.yml --platform linux-64
-pip install -r pip_packages.txt
+conda-lock lock -f ./requirements/conda-lock.yml --platform linux-64
+pip install -r ./requirements/pip_packages.txt
 ```
 
 ### 3. Training
