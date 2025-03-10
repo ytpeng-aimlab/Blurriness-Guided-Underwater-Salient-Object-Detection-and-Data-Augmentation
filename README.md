@@ -3,6 +3,7 @@ Salient object detection (SOD) has made significant progress with the help of de
 
 ## Introduction
 This research proposes two practical approaches to improve underwater salient object detection (SOD) performance, both based on an inherent property of underwater scenes—blurriness—as objects appear more blurred when they are farther away.
+![Metrics](Figures/Metrics.png)
 
 ## Network Architecture of ADDF and CCAF
 ![Architecture](Figures/Architecture.png)
